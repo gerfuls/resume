@@ -17,19 +17,31 @@
     -#Update favicon_base.png in /source and middleman-favicon-maker will generate all the versions you need on 'middleman build'
     -#OR, place favicon.ico and apple-touch-icon.png in /source and deactivate :favicon_maker in config.rb
     
-    
     = javascript_include_tag "vendor/modernizr-2.6.1.min"
-    = stylesheet_link_tag "site"
+    <link rel="stylesheet" type="text/css" href="stylesheets/site.css" media="screen, print" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/bootstrap.css" media="screen, print" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/resume.css" media="screen, print" />
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,600,700' rel='stylesheet' type='text/css' media='screen, print'>
+    /= stylesheet_link_tag "site", "bootstrap", "resume"
   %body
     /[if lt IE 7] <p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p>
     %header
-    %div{:role => "main", :class => "main"}= yield
+      .container
+        .initials
+          %h1 jd
+          %span computer scientist
+        %h1#name Joshua Dover
+    = yield
     %footer
+      .container
+        %hr
+        %p.pull-right handcrafted with <span class="label label-important">love</span> using <a rel="tooltip" title="A Ruby frontend engine" href="http://middlemanapp.com">middleman</a>
+    
     
     = javascript_include_tag "//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"
     :javascript
       window.jQuery || document.write('<script src="javascripts/vendor/jquery-1.8.0.min.js"><\/script>')
-    = javascript_include_tag "site"
+    = javascript_include_tag "bootstrap", "site"
     
     :javascript
       var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
