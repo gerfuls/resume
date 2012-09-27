@@ -21,6 +21,7 @@
     <link rel="stylesheet" type="text/css" href="stylesheets/site.css" media="screen, print" />
     <link rel="stylesheet" type="text/css" href="stylesheets/bootstrap.css" media="screen, print" />
     <link rel="stylesheet" type="text/css" href="stylesheets/resume.css" media="screen, print" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/font-awesome.css" media="screen, print" />
     <link href='http://fonts.googleapis.com/css?family=Lato:300,400,600,700' rel='stylesheet' type='text/css' media='screen, print'>
     /= stylesheet_link_tag "site", "bootstrap", "resume"
   %body
@@ -37,6 +38,10 @@
         %hr
         %p.pull-right handcrafted with <span class="label label-important">love</span> using <a rel="tooltip" title="A Ruby frontend engine" href="http://middlemanapp.com">middleman</a>
     
+        %a.pull-right{:title => "Download a PDF", :href => "JoshuaDoverResume.pdf"}
+          %i.icon-download
+        %a.pull-right#print{:title => "Printer Friendly View"}
+          %i.icon-print
     
     = javascript_include_tag "//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"
     :javascript
