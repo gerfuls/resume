@@ -34,10 +34,13 @@
       = yield
     %footer  
       .container
-        %a.pull-right{:title => "Download a PDF", :href => "JoshuaDoverResume.pdf"}
-          %i.icon-download
-        %a.pull-right#print{:title => "Printer Friendly View"}
-          %i.icon-print
+        .row
+          .span2.offset5
+            %div{:style => "margin: auto"}
+              %a{:title => "Download a PDF", :href => "JoshuaDoverResume.pdf"}
+                %i.icon-download
+              %a#print{:title => "Printer Friendly View"}
+                %i.icon-print
     
     = javascript_include_tag "//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"
     :javascript
