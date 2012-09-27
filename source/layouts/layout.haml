@@ -26,18 +26,14 @@
     /= stylesheet_link_tag "site", "bootstrap", "resume"
   %body
     /[if lt IE 7] <p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p>
-    %header
+    .container#paper
+      .initials
+        %h1 jd
+        %span computer scientist
+      %h1#name Joshua Dover
+      = yield
+    %footer  
       .container
-        .initials
-          %h1 jd
-          %span computer scientist
-        %h1#name Joshua Dover
-    = yield
-    %footer
-      .container
-        %hr
-        %p.pull-right handcrafted with <span class="label label-important">love</span> using <a rel="tooltip" title="A Ruby frontend engine" href="http://middlemanapp.com">middleman</a>
-    
         %a.pull-right{:title => "Download a PDF", :href => "JoshuaDoverResume.pdf"}
           %i.icon-download
         %a.pull-right#print{:title => "Printer Friendly View"}
