@@ -17,9 +17,10 @@ body
   background-color: white
   margin-top: 50px
   padding: 50px
-  +box-shadow(0px 0px 8px #999)
+  +box-shadow(0px 0px 8px #bbb)
   +border-radius(3px)
 
+#paper:before,
 #paper:after
   z-index: -1
   position: absolute
@@ -30,8 +31,12 @@ body
   content: ''
   background-color: white
   +transform(rotate(-2deg))
-  +box-shadow(0px 0px 8px #ccc)
+  +box-shadow(0px 0px 5px #ccc)
   +border-radius(3px)
+  
+#paper:before
+  z-index: -2
+  +transform(rotate(-3deg))
   
 footer
   margin-top: 20px
