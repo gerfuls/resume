@@ -1,81 +1,139 @@
-@import 'compass'
-
-$maroon: #600024
-
 *, body, p, h1, h2, h3, h4, h5, h6
-  font-family: "Lato", "Helvetica Neue", "HelveticaNeue-Light", "Helvetica Neue Light", Helvetica, Arial, "Lucida Grande", sans-serif
+  font-family: "Lato","Helvetica Neue","HelveticaNeue-Light","Helvetica Neue Light",Helvetica,Arial,"Lucida Grande",sans-serif
 
 *
   -webkit-print-color-adjust: exact
-  
+
+body
+  background-color: #eeeeee
+  padding: 0 50px
+
+#paper
+  position: relative
+  background-color: white
+  margin-top: 50px
+  padding: 50px
+  -webkit-box-shadow: 0 0 8px #bbbbbb
+  -moz-box-shadow: 0 0 8px #bbbbbb
+  box-shadow: 0 0 8px #bbbbbb
+  -webkit-border-radius: 3px
+  -moz-border-radius: 3px
+  -ms-border-radius: 3px
+  -o-border-radius: 3px
+  border-radius: 3px
+  &:before, &:after
+    z-index: -1
+    position: absolute
+    top: 2px
+    left: 2px
+    width: 1040px
+    height: 2072px
+    content: ""
+    background-color: white
+    -webkit-transform: rotate(-2deg)
+    -moz-transform: rotate(-2deg)
+    -ms-transform: rotate(-2deg)
+    -o-transform: rotate(-2deg)
+    transform: rotate(-2deg)
+    -webkit-box-shadow: 0 0 5px #cccccc
+    -moz-box-shadow: 0 0 5px #cccccc
+    box-shadow: 0 0 5px #cccccc
+    -webkit-border-radius: 3px
+    -moz-border-radius: 3px
+    -ms-border-radius: 3px
+    -o-border-radius: 3px
+    border-radius: 3px
+  &:before
+    z-index: -2
+    -webkit-transform: rotate(1deg)
+    -moz-transform: rotate(1deg)
+    -ms-transform: rotate(1deg)
+    -o-transform: rotate(1deg)
+    transform: rotate(1deg)
+
+footer
+  margin-top: 40px
+  margin-bottom: 12px
+  .container a
+    margin: 0 25px
+    font-size: 30px
+    color: #bbbbbb
+    &:hover
+      color: #333333
+
 a
   color: inherit
-  
-a:hover
-  text-decoration: none
-  
+  &:hover
+    color: #600024
+    text-decoration: none
+
 li
   margin-bottom: 2px
 
 div.initials
   width: 200px
   height: 200px
-  background-color: $maroon
-  /*+background-image(radial-gradient(15px 124px, #600024 70px, #fff 215px))
-  +border-radius(8px)
+  background-color: #600024
+  -webkit-border-radius: 8px
+  -moz-border-radius: 8px
+  -ms-border-radius: 8px
+  -o-border-radius: 8px
+  border-radius: 8px
   float: right
-  margin: 40px 0
+  margin: 40px 40px
   -webkit-print-color-adjust: exact
 
-.initials h1
-  color: white
-  margin-top: 97px
-  font-size: 150px
-  -webkit-print-color-adjust: exact
-  
-.initials span
-  -webkit-transform: rotate(-90deg)
-  color: white
-  display: block
-  margin-right: -183px
-  margin-top: -151px
-  font-size: 24px
-	
+.initials
+  h1
+    color: white
+    margin-top: 97px
+    font-size: 150px
+    -webkit-print-color-adjust: exact
+  span
+    -webkit-transform: rotate(-90deg)
+    -moz-transform: rotate(-90deg)
+    -ms-transform: rotate(-90deg)
+    -o-transform: rotate(-90deg)
+    transform: rotate(-90deg)
+    -webkit-transform: rotate(-90deg)
+    color: white
+    display: block
+    margin-right: -183px
+    margin-top: -156px
+    font-size: 24px
+
 #name
   font-weight: 100
   font-size: 100px
-  margin-top: 177px
+  margin: 177px 40px 76px
   color: #600024
   -webkit-print-color-adjust: exact
-  
-.resume-sections .span3
-  text-align: right
 
-.resume-sections .span3 h3
-  border-right: 1px $maroon solid
-  padding-right: 20px
-  text-transform: lowercase
-  
-.resume-sections .span9
-  position: relative
-  
+.resume-sections
+  .span3
+    text-align: right
+    h3
+      border-right: 1px #600024 solid
+      padding-right: 20px
+      text-transform: lowercase
+  .span9
+    position: relative
+  p
+    text-align: justify
+  .row
+    margin-bottom: 20px
+
 p.lead
   padding-top: 17px
   margin-bottom: 5px
-  
-span.resume-subtitle
-  font-size: 14px
-  color: #999  
-  text-transform: lowercase
-  font-weight: 200
-  
-span.resume-subtitle-right
-  position: absolute
-  right: 0
-  margin-top: 3px
 
-.resume-sections p
-  text-align: justify
-
-.resume-sections .row
-  margin-bottom: 20px
+span
+  &.resume-subtitle
+    font-size: 14px
+    color: #999999
+    text-transform: lowercase
+    font-weight: 200
+  &.resume-subtitle-right
+    position: absolute
+    right: 0
+    margin-top: 3px
