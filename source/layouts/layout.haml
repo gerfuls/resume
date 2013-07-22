@@ -18,10 +18,12 @@
     -#OR, place favicon.ico and apple-touch-icon.png in /source and deactivate :favicon_maker in config.rb
 
     = javascript_include_tag "vendor/modernizr-2.6.1.min"
-    <link rel="stylesheet" type="text/css" href="stylesheets/site.css" media="screen, print" />
-    <link rel="stylesheet" type="text/css" href="stylesheets/bootstrap.css" media="screen, print" />
-    <link rel="stylesheet" type="text/css" href="stylesheets/resume.css" media="screen, print" />
-    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,600,700' rel='stylesheet' type='text/css' media='screen, print'>
+    %link{:rel => "stylesheet", :type => "text/css", :media => "screen, print", :href => "stylesheets/site.css"}
+    %link{:rel => "stylesheet", :type => "text/css", :media => "screen, print", :href => "stylesheets/bootstrap.css"}
+    %link{:rel => "stylesheet", :type => "text/css", :media => "screen, print", :href => "stylesheets/resume.css"}
+    %link{:rel => "stylesheet", :type => "text/css", :media => "screen, print", :href => "http://fonts.googleapis.com/css?family=Lato:300,400,600,700"}
+    / %link{:href => "//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css"}
+    %link{:rel => "stylesheet", :type => "text/css", :media => "screen, print", :href => "//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css"}
     /= stylesheet_link_tag "site", "bootstrap", "resume"
   %body
     /[if lt IE 7] <p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p>
@@ -29,7 +31,10 @@
       = yield
     %footer
       .container
-        .row
+        .row#digital-version
+          .span12
+            .p joshdover.com/resume
+        .row#buttons
           .span2.offset5
             %div{:style => "margin: auto"}
               %a{:href => "JoshuaDoverResume.pdf", :title => "Download a PDF"}

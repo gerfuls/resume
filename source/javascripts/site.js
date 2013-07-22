@@ -15,12 +15,14 @@
 function printFriendly() {
   $("#paper").removeAttr("id")
   $("body").css("backgroundColor", "white")
-  $("footer").remove(), $("a").each(function () {
+  $("#buttons").remove(), $("a").each(function () {
     $(this).contents().unwrap()
   })
+  $("#digital-version").show()
   $(".initials span").remove()
   $(".initials h1").css("float", "right")
   $(".span3 h3").css("border-right", "1px black solid")
+  $(".")
 }
 
 $("a").each(function () {
