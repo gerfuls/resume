@@ -1,0 +1,113 @@
+sections:
+  - title: Education
+    items:
+      - title: Texas A&amp;M University, College Station
+        url: http://cs.tamu.edu
+        tooltip: Computer Science @ Texas A&amp;M
+        subtitle: Undergraduate
+        date: Aug 2011 - Present
+        bullets:
+          - Bachelors of Science in Computer Science
+          - GPA &minus; 4.0 major, 3.53 overall
+          - Graduating in May 2015
+  - title: Skills
+    items:
+      - title: Programming Languages
+        bullets:
+          - Java, object oriented programming study, Android development.
+          - Ruby, building complex Rails applications and Ruby gems for personal and business projects.
+          - C++, data structure analysis, POSIX concurrency, TCP programming.
+          - HTML5 + CSS3 + Javascript, building dynamic websites that take advantage of latest web technologies.
+          - Objective-C, iOS development for personal projects.
+          - Haskell, writing functional code to study performance and formal language semantics.
+      - title: Software Development
+        bullets:
+          - Following and applying development process frameworks such as Agile SCRUM and Kanban.
+          - Using source control management tools, such as git, for large and small projects.
+      - title: Business Development
+        bullets:
+          - Critically preparing and constantly revising business models and canvases.
+          - Implementing lean startup processes, including validated learning, engines of growth, and model pivots.
+          - Conducting customer discovery interviews to identify customer needs and evaluate value propoitions.
+  - title: Work
+    items:
+      - title: Google
+        url: http://www.google.com/intl/en/jobs/students/tech/internships/
+        tooltip: Internships @ Google
+        subtitle: Software Engineering Intern
+        date: May 2013 - Aug 2013
+        bullets:
+          - Implementing new features in a yet-to-be released Android app.
+          - Reviewing Google engineers' code for design, performance, and style.
+          - Received a peer bonus for engineering efforts and spotting a performance issue in another engineer's code.
+      - title: Improving Enterprises
+        url: http://improvingenterprises.com
+        tooltip: Learn about Improving
+        subtitle: Associate Consultant
+        date: Nov 2012 − May 2013
+        bullets:
+          - Providing custom software consulting and application developments for growing businesses.
+          - Evaluating various technologies to find optimal solutions for complex computing problems.
+          - Working with a team of developers to write clean, optimized, maintainable code.
+          - Developing a high-level integration test suite using Capybara and Selenium.
+      - title: Texas A&M University Libraries System
+        url: http://library.tamu.edu
+        tooltip: Learn about A&M Libraries
+        subtitle: Student Technician
+        date: Oct 2011 - Nov 2012
+        bullets:
+          - Providing support for over 500 library system staff, faculty, and student computing and electronic resources.
+          - Cooperating with University Library System affiliates overseas, such as Texas A&M at Qatar.
+          - Writing documentation for the Digital Initiative Department on software and hardware configuration processes.
+  - title: Ventures
+    items:
+      - title: AskAgs
+        url: http://askags.com
+        tooltip: Get answers on AskAgs
+        subtitle: Chief Technology Officer
+        date: Mar 2013 - Present
+        bullets:
+          - Implementing a pixel-perfect design according to a design specification to create a great user experience.
+          - Rewriting an existing open source application for better code health and flexibility.
+          - Building a robust and well-tested cluster deployment mechanism to enable simple code updates and scalability.
+      - title: Albedo Analytics
+        url: http://goalbedo.com
+        tooltip: Get feedback with Albedo
+        subtitle: Chief eXperience Officer / Cofounder
+        date: Sept 2012 - Present
+        bullets:
+          - Building affordable, sms-based customer feedback systems for both local businesses and large enterprises.
+          - Selecting appropriate technologies and directing the workflow of development with the engineering team.
+          - Employing lean concepts to develop a SaaS that provides real value for customers.
+      - title: Tidaltexts
+        subtitle: Chief Executive Officer / Cofounder
+        date: Sept 2012 - Present
+        bullets:
+          - Developing an alternative business model within the tightly controlled textbook industry.
+          - Organizing engineering and marketing efforts for development of the product and growth of user base.
+  - title: Service & Leadership
+    items:
+      - title: Parents' Weekend Committee
+        url: http://parentsweekend.tamu.edu
+        tooltip: Learn about PWC
+        subtitle: Member
+        date: Sept 2012 - Present
+        bullets:
+          - Serving the Aggie Family by organizing the annual Parents' Weekend and its various social events.
+          - Organizing committee efforts through consistent communication.
+      - title: Fish Camp
+        url: http://fishcamp.tamu.edu
+        tooltip: Learn about Fish Camp
+        subtitle: Counselor
+        date: Mar 2012 - Mar 2013
+        bullets:
+          - Helping over 100 incoming freshman adjust to college life.
+          - Providing an accepting environment to allow for new friendships to form through discussions and games.
+      - title: MSC Freshman Leadership Organization
+        url: http://fish.tamu.edu
+        tooltip: Learn about MSC FISH
+        subtitle: Member
+        date: Sept 2011 - Mar 2012
+        bullets:
+          - Participated in community service projects and leadership development programs.
+          - Organized and hosted campus events to promote societal issue awareness and community service.

@@ -1,121 +1,19 @@
 #paper.container
   .initials
-    %h1 jd
-    %span computer science
-  %h1#name Joshua Dover
-  / TODO: Load these sections from a YAML file to make this template more independent of the data
+    %h1= Resume.info["initials"]
+    %span= Resume.info["subtitle"]
+  %h1#name= Resume.info["name"]
   .resume-sections
-    #education.row
-      .span3
-        %h3 Education
-      .span9
-        %p.lead
-          %a{:href => "http://cse.tamu.edu", :title => "Computer Science @ Texas A&amp;M"} Texas A&M University
-          %span.resume-subtitle Undergraduate Student
-          %span.resume-subtitle.resume-subtitle-right Aug 2011 − Present
-        %ul
-          %li Computer Science
-          %li GPR &minus; 3.53 overall, 4.0 major
-          %li 94 Credit Hours Completed
-    #skills.row
-      .span3
-        %h3 Skills
-      .span9
-        %p.lead Programming Languages
-        %ul
-          %li Java, object oriented programming study, Android development.
-          %li Ruby, building complex Rails applications and Ruby gems for personal and business projects.
-          %li C++, data structure analysis, POSIX concurrency, TCP programming.
-          %li HTML5 + CSS3 + Javascript, building dynamic websites that take advantage of latest web technologies.
-          %li Objective-C, iOS development for personal projects.
-          %li Haskell, writing functional code to study performance and formal language semantics.
-        %p.lead Software Development
-        %ul
-          %li Following and applying development process frameworks such as Agile SCRUM and Kanban.
-          %li Using source control management tools, such as git, for large and small projects.
-        %p.lead Business Development
-        %ul
-          %li Critically preparing and constantly revising business models and canvases.
-          %li Implementing lean startup processes, including validated learning, engines of growth, and model pivots.
-          %li Conducting customer discovery interviews to identify customer needs and evaluate value propoitions.
-    #work.row
-      .span3
-        %h3 Work
-      .span9
-        %p.lead
-          %a{:href => "http://www.google.com/intl/en/jobs/students/tech/internships/", :title => "Internships @ Google"} Google
-          %span.resume-subtitle Software Engineering Intern
-          %span.resume-subtitle.resume-subtitle-right May 2013 - Aug 2013
-        %ul
-          %li Implementing new features in a yet-to-be released Android app.
-          %li Reviewing Google engineers' code for design, performance, and style.
-          %li Received a peer bonus for engineering efforts and spotting a performance issue in another engineer's code.
-        %p.lead
-          %a{:href => "http://improvingenterprises.com", :title => "Learn about Improving"} Improving Enterprises
-          %span.resume-subtitle Associate Consultant
-          %span.resume-subtitle.resume-subtitle-right Nov 2012 − May 2013
-        %ul
-          %li Providing custom software consulting and application developments for growing businesses.
-          %li Evaluating various technologies to find optimal solutions for complex computing problems.
-          %li Working with a team of developers to write clean, optimized, maintainable code.
-          %li Developing a high-level integration test suite using Capybara and Selenium.
-        %p.lead
-          %span Texas A&M University Libraries System
-          %span.resume-subtitle Student Technician
-          %span.resume-subtitle.resume-subtitle-right Oct 2011 − Nov 2012
-        %ul
-          %li Providing support for over 500 library system staff, faculty, and student computing and electronic resources.
-          %li Cooperating with University Library System affiliates overseas, such as Texas A&M at Qatar.
-          %li Writing documentation for the Digital Initiative Department on software and hardware configuration processes.
-    #ventures.row
-      .span3
-        %h3 Ventures
-      .span9
-        %p.lead
-          %a{:href => "http://askags.com", :title => "Get answers on AskAgs"} AskAgs
-          %span.resume-subtitle Chief Technology Officer
-          %span.resume-subtitle.resume-subtitle-right Mar 2013 - Present
-        %ul
-          %li Implementing a pixel-perfect design according to a design specification to create a great user experience.
-          %li Rewriting an existing open source application for better code health and flexibility.
-          %li Building a robust and well-tested cluster deployment mechanism to enable simple code updates and scalability.
-        %p.lead
-          %a{:href => "http://goalbedo.com", :title => "Get feedback with Albedo"} Albedo Analytics
-          %span.resume-subtitle Chief eXperience Officer / Cofounder
-          %span.resume-subtitle.resume-subtitle-right Sept 2012 − Present
-        %ul
-          %li Building affordable, sms-based customer feedback systems for both local businesses and large enterprises.
-          %li Selecting appropriate technologies and directing the workflow of development with the engineering team.
-          %li Employing lean concepts to develop a SaaS that provides real value for customers.
-        %p.lead
-          %span Tidaltexts
-          %span.resume-subtitle Chief Executive Officer / Cofounder
-          %span.resume-subtitle.resume-subtitle-right Jan 2012 − Mar 2013
-        %ul
-          %li Developing an alternative business model within the tightly controlled textbook industry.
-          %li Organizing engineering and marketing efforts for development of the product and growth of user base.
-    #service.row
-      .span3
-        %h3 Service & Leadership
-      .span9
-        %p.lead
-          %a{:href => "http://parentsweekend.tamu.edu", :title => "Learn about PWC"} Parents' Weekend Committee
-          %span.resume-subtitle Member
-          %span.resume-subtitle.resume-subtitle-right Sept 2012 − Present
-        %ul
-          %li Serving the Aggie Family by organizing the annual Parents' Weekend and its various social events.
-          %li Organizing committee efforts through consistent communication.
-        %p.lead
-          %a{:href => "http://fishcamp.tamu.edu", :title => "Learn about Fish Camp"} Fish Camp
-          %span.resume-subtitle Counselor
-          %span.resume-subtitle.resume-subtitle-right Mar 2012 − Mar 2013
-        %ul
-          %li Helping over 100 incoming freshman adjust to college life.
-          %li Providing an accepting environment to allow for new friendships to form through discussions and games.
-        %p.lead
-          %a{:href => "http://fish.tamu.edu", :title => "Learn about MSC FISH"} MSC Freshman Leadership Organization
-          %span.resume-subtitle Committee Member
-          %span.resume-subtitle.resume-subtitle-right Sept 2011 − Mar 2012
-        %ul
-          %li Participated in community service projects and leadership development programs.
-          %li Organized and hosted campus events to promote societal issue awareness and community service.
+    - Resume.sections.each do |section|
+      #section.row
+        .span3
+          %h3= section["title"]
+        .span9
+          - section["items"].each do |item|
+            %p.lead
+              %a{:href => item["url"], :title => item["tooltip"]}= item["title"]
+              %span.resume-subtitle= item["subtitle"]
+              %span.resume-subtitle.resume-subtitle-right= item["date"]
+            %ul
+              - item["bullets"].each do |bullet|
+                %li= bullet
