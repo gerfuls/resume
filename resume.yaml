@@ -1,3 +1,9 @@
+info:
+  name: Joshua Dover
+  initials: JD
+  subtitle: Computer Science
+  email: me@joshdover.com
+  phone: 214-277-9368
 sections:
   - title: Education
     items:
@@ -12,18 +18,18 @@ sections:
           - Graduating in May 2015
   - title: Skills
     items:
-      - title: Programming Languages
+      - title: Languages
         bullets:
-          - Java, object oriented programming study, Android development.
-          - Ruby, building complex Rails applications and Ruby gems for personal and business projects.
+          - Java, Android development, design pattern study.
+          - Ruby, Ruby on Rails development, Ruby gem development for personal and business projects.
           - C++, data structure analysis, POSIX concurrency, TCP programming.
           - HTML5 + CSS3 + Javascript, building dynamic websites that take advantage of latest web technologies.
           - Objective-C, iOS development for personal projects.
-          - Haskell, writing functional code to study performance and formal language semantics.
-      - title: Software Development
-        bullets:
-          - Following and applying development process frameworks such as Agile SCRUM and Kanban.
-          - Using source control management tools, such as git, for large and small projects.
+          # - Haskell, writing functional code to study performance and formal language semantics.
+  #     - title: Software Development
+  #       bullets:
+  #         - Following and applying development process frameworks such as Agile SCRUM and Kanban.
+  #         - Using source control management tools, such as git, for large and small projects.
       - title: Business Development
         bullets:
           - Critically preparing and constantly revising business models and canvases.
@@ -38,18 +44,20 @@ sections:
         date: May 2013 - Aug 2013
         bullets:
           - Implementing new features in a yet-to-be released Android app.
-          - Reviewing Google engineers' code for design, performance, and style.
-          - Received a peer bonus for engineering efforts and spotting a performance issue in another engineer's code.
+          - Extensive work with Android UI programming and reliable network communications.
+          - Studying and utilizing software design patterns and testing techniques to maximize maintainability.
+          # - Received a peer bonus for engineering efforts and spotting a performance issue in another engineer's code.
+          - Reviewing other Google engineers' code for readability and performance.
       - title: Improving Enterprises
         url: http://improvingenterprises.com
         tooltip: Learn about Improving
-        subtitle: Associate Consultant
+        subtitle: Engineering Consultant
         date: Nov 2012 − May 2013
         bullets:
-          - Providing custom software consulting and application developments for growing businesses.
-          - Evaluating various technologies to find optimal solutions for complex computing problems.
-          - Working with a team of developers to write clean, optimized, maintainable code.
-          - Developing a high-level integration test suite using Capybara and Selenium.
+          - Providing custom software consulting and application development for growing businesses.
+          - Refactoring poorly organized legacy code into proper frameworks for maintainability.
+          # - Working with a team of developers to write organized, optimized, maintainable code.
+          - Developing high-level integration test suites to ensure high product quality.
       - title: Texas A&M University Libraries System
         url: http://library.tamu.edu
         tooltip: Learn about A&M Libraries
@@ -64,11 +72,12 @@ sections:
       - title: AskAgs
         url: http://askags.com
         tooltip: Get answers on AskAgs
-        subtitle: Chief Technology Officer
+        subtitle: Chief Technology Officer / Cofounder
         date: Mar 2013 - Present
         bullets:
-          - Implementing a pixel-perfect design according to a design specification to create a great user experience.
+          - Implementing a pixel-perfect design to create a great user experience that provides familiarity.
           - Rewriting an existing open source application for better code health and flexibility.
+          - Designing a data store schema that allows for reliability and availability, appropriate for our data structure.
           - Building a robust and well-tested cluster deployment mechanism to enable simple code updates and scalability.
       - title: Albedo Analytics
         url: http://goalbedo.com
@@ -76,25 +85,38 @@ sections:
         subtitle: Chief eXperience Officer / Cofounder
         date: Sept 2012 - Present
         bullets:
-          - Building affordable, sms-based customer feedback systems for both local businesses and large enterprises.
+          - Building affordable, mobile customer feedback systems for both local businesses and large enterprises.
           - Selecting appropriate technologies and directing the workflow of development with the engineering team.
           - Employing lean concepts to develop a SaaS that provides real value for customers.
-      - title: Tidaltexts
-        subtitle: Chief Executive Officer / Cofounder
-        date: Sept 2012 - Present
-        bullets:
-          - Developing an alternative business model within the tightly controlled textbook industry.
-          - Organizing engineering and marketing efforts for development of the product and growth of user base.
+      # - title: Tidaltexts
+      #   subtitle: Chief Executive Officer / Cofounder
+      #   date: Sept 2012 - Present
+      #   bullets:
+      #     - Developing an alternative business model within the tightly controlled textbook industry.
+      #     - Organizing engineering and marketing efforts for development of the product and growth of user base.
   - title: Service & Leadership
     items:
-      - title: Parents' Weekend Committee
-        url: http://parentsweekend.tamu.edu
-        tooltip: Learn about PWC
-        subtitle: Member
-        date: Sept 2012 - Present
+      - title: Startup Aggieland
+        url: http://startupaggieland.tamu.edu
+        tooltip: Learn about our student-run business accelerator
+        subtitle: Entrepreneur-in-Residence
+        date: Jan 2013 - Present
         bullets:
-          - Serving the Aggie Family by organizing the annual Parents' Weekend and its various social events.
-          - Organizing committee efforts through consistent communication.
+          - Facilitating the growth of our tech startup community through meetups and regular tech talks.
+          - Hosting and promoting hackathon events to inspire tech collaboration and new ventures.
+      # - title: Caring Aggies R Protecting Over Our Lives (CARPOOL)
+      #   url: http://carpool.tamu.edu
+      #   tooltip: Learn about CARPOOL
+      #   subtitle: Member
+      #   date: May 2013 - Present
+      # - title: Parents' Weekend Committee
+      #   url: http://parentsweekend.tamu.edu
+      #   tooltip: Learn about PWC
+      #   subtitle: Member
+      #   date: Sept 2012 - Present
+      #   bullets:
+      #     - Serving the Aggie Family by organizing the annual Parents' Weekend and its various social events.
+      #     - Organizing committee efforts through consistent communication.
       - title: Fish Camp
         url: http://fishcamp.tamu.edu
         tooltip: Learn about Fish Camp

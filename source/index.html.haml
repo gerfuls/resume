@@ -1,14 +1,19 @@
 #paper.container
-  .initials
-    %h1= Resume.info["initials"]
-    %span= Resume.info["subtitle"]
-  %h1#name= Resume.info["name"]
+  / .initials
+  /   %h1= Resume.info["initials"]
+  /   %span= Resume.info["subtitle"]
+  #info
+    %h1#name= Resume.info["name"]
+    %p.info
+      = Resume.info["email"]
+      &bull;
+      = Resume.info["phone"]
   .resume-sections
     - Resume.sections.each do |section|
-      #section.row
-        .span3
+      .row
+        .span2.title
           %h3= section["title"]
-        .span9
+        .span9.content
           - section["items"].each do |item|
             %p.lead
               %a{:href => item["url"], :title => item["tooltip"]}= item["title"]
