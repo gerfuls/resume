@@ -7,18 +7,31 @@ info:
 sections:
   - title: Experience
     items:
+      - title: Cratejoy
+        url: https://cratejoy.com
+        tooltip:
+        subtitle: Engineering Manager & Lead Software Engineer
+        date: Oct 2015 — Present
+        bullets:
+          - Managed team of 6 engineers, providing guidance and praise to level up their careers.
+          - Lead efforts to transition to continuous deployment. Built a per-branch staging system on Kubernetes.
+          - Developed interviewing and onboarding processes for all new engineering hires.
+          # - Implemented and iterated to the right agile processes for a fast-growing startup.
+          - Built a high-quality WYSIWYG website builder in React + Python from scratch in 6 months.
+          # - Started as a Senior Engineer, moved up to Lead and then Manager within 2 years.
+          - Primary Tech - Python, React, Kubernetes, PostgreSQL
       - title: AskU
         url: http://angel.co/asku
         tooltip: Get answers with AskU
         subtitle: Chief Technology Officer & Co-founder
-        date: May 2014 — Present
+        date: May 2014 — Oct 2015
         bullets:
-          - Head of all engineering, devops, and product design in a venture-backed startup.
+          - Lead engineering, devops, and product design in a venture-backed startup.
           # - Coordinating feature development, devops, and data collection on web and mobile apps.
           # - Building a process that emphasized application performance and code quality thoughout development.
           - Estabilished code and design quality goals and mechanisms (reviews, testing, user studies) for acheiving these goals.
           - Screened, interviewed, and hired for positions in engineering and marketing.
-          - Designed slide decks and wrote messaging for fundraising, raised over $370k.
+          - Designed slide decks, crafted messaging, and pitched for fundraising, raised over $370k.
           - Primary Tech – Ruby on Rails, Node.js, Angular.js
           # - Participating as a co-founder through the SeedSumo accelerator program.
           # - Running and coordinating business model experiments.
@@ -58,15 +71,15 @@ sections:
           # - Working with Android UI programming and reliable network communication programming.
           # - Studying and utilizing software design patterns and testing techniques to maximize maintainability.
           # - Reviewing other Google engineers' code for readability and performance.
-      - title: Improving Enterprises
-        url: http://improvingenterprises.com
-        tooltip: Learn about Improving
-        subtitle: Engineering Consultant
-        date: Nov 2012 — May 2013
-        bullets:
-          - Provided custom software consulting and application development for growing businesses.
-          - Refactored poorly organized legacy code into proper frameworks for maintainability.
-          - Developed high-level integration test suites to ensure high product quality.
+      # - title: Improving Enterprises
+      #   url: http://improvingenterprises.com
+      #   tooltip: Learn about Improving
+      #   subtitle: Engineering Consultant
+      #   date: Nov 2012 — May 2013
+      #   bullets:
+      #     - Provided custom software consulting and application development for growing businesses.
+      #     - Refactored poorly organized legacy code into proper frameworks for maintainability.
+      #     - Developed high-level integration test suites to ensure high product quality.
   - title: Education
     items:
       - title: Texas A&amp;M University
@@ -82,16 +95,29 @@ sections:
     items:
       - title: Programming Knowledge
         bullets:
-          - Java — Android development at Google and Mozilla
-          - JavaScript — extensive experience with Angular.js, Node.js, and TypeScript
+          - JavaScript — Extensive experience with React, Angular.js, Node.js, and TypeScript
+          - Python — Large Flask web app at Cratejoy, machine learning & AI with Keras + TensorFlow
+          - Docker + Kubernetes — built a per-branch staging system on top of Kubernetes used at Cratejoy
           - Ruby — Large Ruby on Rails projects and test suites
-          - Objective-C / Swift — some iOS development
-          - C++ — data structure analysis, POSIX concurrency, TCP programming
+          - Java — Android development at Google and Mozilla
+          # - Objective-C / Swift — some iOS development
+          # - C++ — data structure analysis, POSIX concurrency, TCP programming
       - title: Technical Leadership
         bullets:
-          - Experience sourcing, identifying, and winning high-quality technical hires on a tight budget.
+          - Experience sourcing, identifying, and winning high-quality technical hires.
+          - Understand the importance of building personal relationships in order to provide effective guidance and feedback.
+          - Worked closely with Product teams to develop the best solution to solve business problems.
           - Keen eye for visual and usability design, with a deep understanding of the technical challenges behind a design.
           - I know how to focus on what is important when balancing technical quality goals with the business value.
+  - title: Recognition
+    items:
+      - title: Speaker
+        bullets:
+          - PyTexas 2017 — "Doubling deploy velocity with parallel stage environments"
+      - title: Awards
+        bullets:
+          - Cratejoy Engineering Values Award 2017 - Q3
+          - Cratejoy Engineering Values Award 2016 - Q4
       # - title: Business Development
       #   bullets:
       #     - Critically preparing and constantly revising business models.
