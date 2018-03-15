@@ -72,6 +72,11 @@ a
     color: #600024
     text-decoration: none
 
+ul.unstyled li:before
+  content: '–'
+  display: inline
+  position: absolute
+  left: -14px
 li
   margin-bottom: 2px
 
@@ -86,7 +91,6 @@ div.initials
   border-radius: 8px
   float: right
   margin: 40px 40px
-  -webkit-print-color-adjust: exact
 
 .initials
   text-transform: lowercase
@@ -95,7 +99,6 @@ div.initials
     color: white
     margin-top: 97px
     font-size: 150px
-    -webkit-print-color-adjust: exact
   span
     -webkit-transform: rotate(-90deg)
     -moz-transform: rotate(-90deg)

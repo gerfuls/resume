@@ -5,131 +5,148 @@ info:
   email: me@joshdover.com
   phone: 214-277-9368
 sections:
-  - title: Education
+  - title: Experience
     items:
-      - title: Texas A&amp;M University, College Station
-        url: http://cs.tamu.edu
-        tooltip: Computer Science @ Texas A&amp;M
-        subtitle: Undergraduate
-        date: Aug 2011 - Present
+      - title: AskU
+        url: http://angel.co/asku
+        tooltip: Get answers with AskU
+        subtitle: Chief Technology Officer & Co-founder
+        date: May 2014 — Present
         bullets:
-          - Bachelors of Science in Computer Science
-          - GPA &minus; 4.0 major, 3.53 overall
-          - Graduating in May 2015
-  - title: Skills
-    items:
-      - title: Languages
+          - Head of all engineering, devops, and product design in a venture-backed startup.
+          # - Coordinating feature development, devops, and data collection on web and mobile apps.
+          # - Building a process that emphasized application performance and code quality thoughout development.
+          - Estabilished code and design quality goals and mechanisms (reviews, testing, user studies) for acheiving these goals.
+          - Screened, interviewed, and hired for positions in engineering and marketing.
+          - Designed slide decks and wrote messaging for fundraising, raised over $370k.
+          - Primary Tech – Ruby on Rails, Node.js, Angular.js
+          # - Participating as a co-founder through the SeedSumo accelerator program.
+          # - Running and coordinating business model experiments.
+          # - Creating a social experience that has everyday utility for students.
+          # - Leading and designing business model validation experiements to maximize potential.
+          # - Designing a data store schema that allows for reliability and availability, appropriate for our data structure.
+          # - Writing a cross-platform high quality native app using HTML + JavaScript.
+      - title: Mozilla Firefox
+        url: http://careers.mozilla.org/en-US/university/
+        tooltip: Internships @ Mozilla
+        subtitle: Software Engineering Intern – Android
+        date: Jan 2014 — May 2014
         bullets:
-          - Java, Android development, design pattern study.
-          - Ruby, Ruby on Rails development, Ruby gem development for personal and business projects.
-          - C++, data structure analysis, POSIX concurrency, TCP programming.
-          - HTML5 + CSS3 + Javascript, building dynamic websites that take advantage of latest web technologies.
-          - Objective-C, iOS development for personal projects.
-          # - Haskell, writing functional code to study performance and formal language semantics.
-  #     - title: Software Development
-  #       bullets:
-  #         - Following and applying development process frameworks such as Agile SCRUM and Kanban.
-  #         - Using source control management tools, such as git, for large and small projects.
-      - title: Business Development
-        bullets:
-          - Critically preparing and constantly revising business models and canvases.
-          - Implementing lean startup processes, including validated learning, engines of growth, and model pivots.
-          - Conducting customer discovery interviews to identify customer needs and evaluate value propoitions.
-  - title: Work
-    items:
+          - Built new Android front-end and web platform features for Firefox for Android.
+          # - Added support to allow web apps to launch and interact with native Android apps.
+          - Refactored code extensively to make it more readable, modular, and testable.
+          - Worked with UX team to design and prototype new search experience features for mobile.
+          - Wrote the mobile team's first MapReduce jobs to crunch metrics from Mozilla's telemetry data.
+          - Primary Tech – Java, Android, ES6 JavaScript, Python
+          # - Building new front-end and web platform features on the Firefox for Android team.
+          # - Add Web Activity support to allow web apps to launch and interact with native Android apps.
+          # - Explore and develop new provider-independent search experiences.
+          # - Update various UX patterns to align with newer Android patterns.
+          # - Prototype new gesture based tab switching mechanism.
       - title: Google
         url: http://www.google.com/intl/en/jobs/students/tech/internships/
         tooltip: Internships @ Google
-        subtitle: Software Engineering Intern
-        date: May 2013 - Aug 2013
+        subtitle: Software Engineering Intern – android
+        date: May 2013 — Aug 2013
         bullets:
-          - Implementing new features in a yet-to-be released Android app.
-          - Extensive work with Android UI programming and reliable network communications.
-          - Studying and utilizing software design patterns and testing techniques to maximize maintainability.
-          # - Received a peer bonus for engineering efforts and spotting a performance issue in another engineer's code.
-          - Reviewing other Google engineers' code for readability and performance.
+          - Designed and built new map features in the Places for Business Android app.
+          - Worked with Android UI programming and reliable network communication programming.
+          - Programmed with Google's Protocol Buffers and RPC infrastructure for fault-tolerant network communications.
+          - Primary Tech – Java, Android, Guava, Square Otto
+          # - Studyied and utilizing software design patterns and testing techniques to maximize maintainability.
+          # - Designing and building new map features in the Places for Business Android app.
+          # - Working with Android UI programming and reliable network communication programming.
+          # - Studying and utilizing software design patterns and testing techniques to maximize maintainability.
+          # - Reviewing other Google engineers' code for readability and performance.
       - title: Improving Enterprises
         url: http://improvingenterprises.com
         tooltip: Learn about Improving
         subtitle: Engineering Consultant
-        date: Nov 2012 − May 2013
+        date: Nov 2012 — May 2013
         bullets:
-          - Providing custom software consulting and application development for growing businesses.
-          - Refactoring poorly organized legacy code into proper frameworks for maintainability.
-          # - Working with a team of developers to write organized, optimized, maintainable code.
-          - Developing high-level integration test suites to ensure high product quality.
-      - title: Texas A&M University Libraries System
-        url: http://library.tamu.edu
-        tooltip: Learn about A&M Libraries
-        subtitle: Student Technician
-        date: Oct 2011 - Nov 2012
-        bullets:
-          - Providing support for over 500 library system staff, faculty, and student computing and electronic resources.
-          - Cooperating with University Library System affiliates overseas, such as Texas A&M at Qatar.
-          - Writing documentation for the Digital Initiative Department on software and hardware configuration processes.
-  - title: Ventures
+          - Provided custom software consulting and application development for growing businesses.
+          - Refactored poorly organized legacy code into proper frameworks for maintainability.
+          - Developed high-level integration test suites to ensure high product quality.
+  - title: Education
     items:
-      - title: AskAgs
-        url: http://askags.com
-        tooltip: Get answers on AskAgs
-        subtitle: Chief Technology Officer / Cofounder
-        date: Mar 2013 - Present
+      - title: Texas A&amp;M University
+        url: http://cs.tamu.edu
+        tooltip: Computer Science @ Texas A&amp;M
+        subtitle: Undergraduate
+        date: Aug 2011 — Dec 2013
         bullets:
-          - Implementing a pixel-perfect design to create a great user experience that provides familiarity.
-          - Rewriting an existing open source application for better code health and flexibility.
-          - Designing a data store schema that allows for reliability and availability, appropriate for our data structure.
-          - Building a robust and well-tested cluster deployment mechanism to enable simple code updates and scalability.
-      - title: Albedo Analytics
-        url: http://goalbedo.com
-        tooltip: Get feedback with Albedo
-        subtitle: Chief eXperience Officer / Cofounder
-        date: Sept 2012 - Present
-        bullets:
-          - Building affordable, mobile customer feedback systems for both local businesses and large enterprises.
-          - Selecting appropriate technologies and directing the workflow of development with the engineering team.
-          - Employing lean concepts to develop a SaaS that provides real value for customers.
-      # - title: Tidaltexts
-      #   subtitle: Chief Executive Officer / Cofounder
-      #   date: Sept 2012 - Present
-      #   bullets:
-      #     - Developing an alternative business model within the tightly controlled textbook industry.
-      #     - Organizing engineering and marketing efforts for development of the product and growth of user base.
-  - title: Service & Leadership
+          - Computer Science
+          - GPA &minus; 4.0 major, 3.53 overall
+          - 107 hours completed
+  - title: Skills
     items:
-      - title: Startup Aggieland
-        url: http://startupaggieland.tamu.edu
-        tooltip: Learn about our student-run business accelerator
-        subtitle: Entrepreneur-in-Residence
-        date: Jan 2013 - Present
+      - title: Programming Knowledge
         bullets:
-          - Facilitating the growth of our tech startup community through meetups and regular tech talks.
-          - Hosting and promoting hackathon events to inspire tech collaboration and new ventures.
-      # - title: Caring Aggies R Protecting Over Our Lives (CARPOOL)
-      #   url: http://carpool.tamu.edu
-      #   tooltip: Learn about CARPOOL
-      #   subtitle: Member
-      #   date: May 2013 - Present
-      # - title: Parents' Weekend Committee
-      #   url: http://parentsweekend.tamu.edu
-      #   tooltip: Learn about PWC
-      #   subtitle: Member
-      #   date: Sept 2012 - Present
+          - Java — Android development at Google and Mozilla
+          - JavaScript — extensive experience with Angular.js, Node.js, and TypeScript
+          - Ruby — Large Ruby on Rails projects and test suites
+          - Objective-C / Swift — some iOS development
+          - C++ — data structure analysis, POSIX concurrency, TCP programming
+      - title: Technical Leadership
+        bullets:
+          - Experience sourcing, identifying, and winning high-quality technical hires on a tight budget.
+          - Keen eye for visual and usability design, with a deep understanding of the technical challenges behind a design.
+          - I know how to focus on what is important when balancing technical quality goals with the business value.
+      # - title: Business Development
       #   bullets:
-      #     - Serving the Aggie Family by organizing the annual Parents' Weekend and its various social events.
-      #     - Organizing committee efforts through consistent communication.
-      - title: Fish Camp
-        url: http://fishcamp.tamu.edu
-        tooltip: Learn about Fish Camp
-        subtitle: Counselor
-        date: Mar 2012 - Mar 2013
-        bullets:
-          - Helping over 100 incoming freshman adjust to college life.
-          - Providing an accepting environment to allow for new friendships to form through discussions and games.
-      - title: MSC Freshman Leadership Organization
-        url: http://fish.tamu.edu
-        tooltip: Learn about MSC FISH
-        subtitle: Member
-        date: Sept 2011 - Mar 2012
-        bullets:
-          - Participated in community service projects and leadership development programs.
-          - Organized and hosted campus events to promote societal issue awareness and community service.
+      #     - Critically preparing and constantly revising business models.
+      #     - Implementing lean startup processes, including validated learning, engines of growth, and model pivots.
+      #     - Conducting customer discovery interviews to identify customer needs and evaluate value propositions.
+      #     - Planning and executing business model experiments to drive success.
+      #     - Project organization and management.
+  # - title: Ventures
+  #   items:
+  #     - title: AskU
+  #       url: http://askags.com
+  #       tooltip: Get answers on AskAgs
+  #       subtitle: Chief Technology Officer / Cofounder
+  #       date: Mar 2013 — Present
+  #       bullets:
+  #         # - Building the online community that Texas A&amp;M deserves.
+  #         - Taking a student project to become a funded corporation.
+  #         # - Creating a social experience that has everyday utility for students.
+  #         - Leading and designing business model validation experiements to maximize potential.
+  #         # - Designing a data store schema that allows for reliability and availability, appropriate for our data structure.
+  #         - Coordinating startegic feature development and code review processes.
+  #         # - Writing a cross-platform high quality native app using HTML + JavaScript.
+  #     - title: Albedo Analytics
+  #       url: http://goalbedo.com
+  #       tooltip: Get feedback with Albedo
+  #       subtitle: Chief eXperience Officer / Cofounder
+  #       date: Sept 2012 — Mar 2013
+  #       bullets:
+  #         - Building affordable, mobile customer feedback systems for both local businesses and large enterprises.
+  #         - Selecting appropriate technologies and directing the workflow of development with the engineering team.
+  #         - Employing lean concepts to develop a SaaS that provides real value for customers.
+  # - title: Service & Leadership
+  #   items:
+  #     - title: CARPOOL Safe Ride Program
+  #       url: http://carpool.tamu.edu
+  #       # tooltip: Learn about CARPOOL
+  #       subtitle: Endowment Committee Executive
+  #       date: May 2013 — Present
+  #     - title: Startup Aggieland
+  #       url: http://startupaggieland.tamu.edu
+  #       # tooltip: Learn about our student-run business accelerator
+  #       subtitle: Entrepreneur-in-Residence
+  #       date: Jan 2013 — Present
+  #     - title: Parents' Weekend Committee
+  #       url: http://parentsweekend.tamu.edu
+  #       # tooltip: Learn about PWC
+  #       subtitle: Member
+  #       date: Sept 2012 — Apr 2013
+  #     - title: Fish Camp
+  #       url: http://fishcamp.tamu.edu
+  #       # tooltip: Learn about Fish Camp
+  #       subtitle: Counselor
+  #       date: Feb 2012 — Feb 2013
+  #     - title: MSC Freshman Leadership Organization (FISH)
+  #       url: http://fish.tamu.edu
+  #       # tooltip: Learn about MSC FISH
+  #       subtitle: Member
+  #       date: Sept 2011 — Mar 2012

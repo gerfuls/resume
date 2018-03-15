@@ -16,9 +16,13 @@
         .span9.content
           - section["items"].each do |item|
             %p.lead
-              %a{:href => item["url"], :title => item["tooltip"]}= item["title"]
+              - if item["url"].nil?
+                %span= item["title"]
+              - else
+                %a{:href => item["url"], :title => item["tooltip"]}= item["title"]
               %span.resume-subtitle= item["subtitle"]
               %span.resume-subtitle.resume-subtitle-right= item["date"]
-            %ul
-              - item["bullets"].each do |bullet|
-                %li= bullet
+            - unless item["bullets"].nil?
+              %ul
+                - item["bullets"].each do |bullet|
+                  %li= bullet
