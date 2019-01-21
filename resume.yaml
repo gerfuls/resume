@@ -7,19 +7,29 @@ info:
 sections:
   - title: Experience
     items:
+      - title: Elastic
+        url: https://elastic.co
+        subtitle: Senior Software Engineer
+        date: July 2018 - Present
+        bullets:
+          - Lead projects to support 50+ engineers to improve their work.
+          # - Improved the workflow and quality of 
+          - Serving on our internal Diversity & Inclusion Council to make Elastic a great place to work for all.
       - title: Cratejoy
         url: https://cratejoy.com
         tooltip: All-in-one Subscription Box SaaS &amp; Marketplace
         subtitle: Engineering Manager & Lead Software Engineer
-        date: Oct 2015 — Present
+        date: Oct 2015 — July 2018
         bullets:
           - Managed team of 6 engineers, providing guidance and praise to level up their careers.
-          - Lead efforts to transition to continuous deployment. Built a per-branch staging system on Kubernetes.
+          - Built an international team including engineers in Austin, Texas and Lagos, Nigeria.
+          # - Lead efforts to transition to continuous deployment. Built a per-branch staging system on Kubernetes.
           - Developed interviewing and onboarding processes for all new engineering hires.
+          - Lead efforts to define company culture and collect feedback on how to improve it.
           # - Implemented and iterated to the right agile processes for a fast-growing startup.
-          - Built a high-quality WYSIWYG website builder in React + Python from scratch in 6 months.
+          # - Built a high-quality WYSIWYG website builder in React + Python from scratch in 6 months.
           # - Started as a Senior Engineer, moved up to Lead and then Manager within 2 years.
-          - Primary Tech - Python, React, Kubernetes, PostgreSQL
+          # - Primary Tech - Python, React, Kubernetes, PostgreSQL
       - title: AskU
         url: http://angel.co/asku
         tooltip: Get answers with AskU
@@ -27,46 +37,47 @@ sections:
         date: May 2014 — Oct 2015
         bullets:
           - Lead engineering, devops, and product design in a venture-backed startup.
+          - Interviewed student and university staff customers to help better address their needs.
           # - Coordinating feature development, devops, and data collection on web and mobile apps.
           # - Building a process that emphasized application performance and code quality thoughout development.
-          - Estabilished code and design quality goals and mechanisms (reviews, testing, user studies) for acheiving these goals.
-          - Built web apps, cross-platform native apps, and Apache Spark data analysis pipelines.
+          # - Estabilished code and design quality goals and mechanisms (reviews, testing, user studies) for acheiving these goals.
+          # - Built web apps, cross-platform native apps, and Apache Spark data analysis pipelines.
           - Screened, interviewed, and hired for positions in engineering and marketing.
-          - Designed slide decks, crafted messaging, and pitched for fundraising, raised over $370k.
-          - Primary Tech – Ruby on Rails, Node.js, Angular.js, Scala, Apache Spark
+          - Crafted messaging and pitched to investors, raised over $370k.
+          # - Primary Tech – Ruby on Rails, Node.js, Angular.js, Scala, Apache Spark
           # - Participating as a co-founder through the SeedSumo accelerator program.
           # - Running and coordinating business model experiments.
           # - Creating a social experience that has everyday utility for students.
           # - Leading and designing business model validation experiements to maximize potential.
           # - Designing a data store schema that allows for reliability and availability, appropriate for our data structure.
           # - Writing a cross-platform high quality native app using HTML + JavaScript.
-      - title: Mozilla
-        url: http://careers.mozilla.org/en-US/university/
-        tooltip: Internships @ Mozilla
-        subtitle: Software Engineering Intern – Firefox for Android
-        date: Jan 2014 — May 2014
-        bullets:
-          - Built new Android front-end and web platform features for Firefox for Android.
-          # - Added support to allow web apps to launch and interact with native Android apps.
-          - Refactored code extensively to make it more readable, modular, and testable.
-          - Worked with UX team to design and prototype new search experience features for mobile.
-          - Wrote the mobile team's first MapReduce jobs to crunch metrics from Mozilla's telemetry data.
-          - Primary Tech – Java, Android, ES6 JavaScript, Python
+      # - title: Mozilla
+      #   url: http://careers.mozilla.org/en-US/university/
+      #   tooltip: Internships @ Mozilla
+      #   subtitle: Software Engineering Intern – Firefox for Android
+      #   date: Jan 2014 — May 2014
+      #   bullets:
+      #     - Built new Android front-end and web platform features for Firefox for Android.
+      #     # - Added support to allow web apps to launch and interact with native Android apps.
+      #     - Refactored code extensively to make it more readable, modular, and testable.
+      #     - Worked with UX team to design and prototype new search experience features for mobile.
+      #     - Wrote the mobile team's first MapReduce jobs to crunch metrics from Mozilla's telemetry data.
+      #     - Primary Tech – Java, Android, ES6 JavaScript, Python
           # - Building new front-end and web platform features on the Firefox for Android team.
           # - Add Web Activity support to allow web apps to launch and interact with native Android apps.
           # - Explore and develop new provider-independent search experiences.
           # - Update various UX patterns to align with newer Android patterns.
           # - Prototype new gesture based tab switching mechanism.
-      - title: Google
-        url: http://www.google.com/intl/en/jobs/students/tech/internships/
-        tooltip: Internships @ Google
-        subtitle: Software Engineering Intern – android
-        date: May 2013 — Aug 2013
-        bullets:
-          - Designed and built new map features in the Places for Business Android app.
-          - Worked with Android UI programming and reliable network communication programming.
-          - Used Protocol Buffers and gRPC infrastructure for fault-tolerant network communications.
-          - Primary Tech – Java, Android, Guava, Square Otto, gRPC
+      # - title: Google
+      #   url: http://www.google.com/intl/en/jobs/students/tech/internships/
+      #   tooltip: Internships @ Google
+      #   subtitle: Software Engineering Intern – android
+      #   date: May 2013 — Aug 2013
+      #   bullets:
+      #     - Designed and built new map features in the Places for Business Android app.
+      #     - Worked with Android UI programming and reliable network communication programming.
+      #     - Used Protocol Buffers and gRPC infrastructure for fault-tolerant network communications.
+          # - Primary Tech – Java, Android, Guava, Square Otto, gRPC
           # - Studyied and utilizing software design patterns and testing techniques to maximize maintainability.
           # - Designing and building new map features in the Places for Business Android app.
           # - Working with Android UI programming and reliable network communication programming.
@@ -83,40 +94,11 @@ sections:
       #     - Developed high-level integration test suites to ensure high product quality.
   - title: Skills
     items:
-      # - title: Engineering Skills
-      #   bullets:
-      #     - JavaScript — Extensive experience with React, Angular.js, Node.js, and TypeScript
-      #     - Python — Large Flask web app at Cratejoy, machine learning & AI with Keras + TensorFlow
-      #     - Go — Kubernetes extensions and contributions, high-performance side projects
-      #     - Docker + Kubernetes — built a per-branch staging system on top of Kubernetes used at Cratejoy
-      #     - Ruby — Large Ruby on Rails projects and test suites
-      #     - Java — Android development at Google and Mozilla
-      #     # - Objective-C / Swift — some iOS development
-      #     # - C++ — data structure analysis, POSIX concurrency, TCP programming
-      - title: Expert
-        subtitle: 1000+ hours
-        bullets:
-          - Python — Large Flask web app at Cratejoy, machine learning & AI with Keras + TensorFlow
-          - JavaScript — Extensive experience with React, Angular.js, Node.js
-          - Ruby — Large Ruby on Rails projects and test suites
-      - title: Advanced
-        subtitle: 100+ hours
-        bullets:
-          - Docker + Kubernetes — built a per-branch staging system on top of Kubernetes used at Cratejoy
-          - Go — Kubernetes extensions and contributions, high-performance side projects
-          - Java — Android development at Google and Mozilla
-      - title: Hobby
-        subtitle: Tools and languages that have piqued my interest
-        bullets:
-          - Elm, Swift, Apache Spark, TypeScript, Keras, TensorFlow
       - title: Technical Leadership
         bullets:
-          - Experience sourcing, identifying, and winning high-quality technical hires.
+          - Experience sourcing, identifying, and winning high-quality hires to build well-rounded and diverse teams.
           - Understand the importance of building personal relationships in order to provide effective guidance and feedback.
           - Prioritizing the right solution for the right problem, cutting scope, prioritizing quality.
-          - Worked closely with Product teams to develop the best solution to solve business problems.
-          - Keen eye for visual and usability design, with a deep understanding of the technical challenges behind a design.
-          # - I know how to focus on what is important when balancing technical quality goals with the business value.
   - title: Education
     items:
       - title: Texas A&amp;M University
@@ -126,8 +108,8 @@ sections:
         date: Aug 2011 — Dec 2013
         bullets:
           - Computer Science
-          - GPA &minus; 4.0 major, 3.53 overall
-          - 107 hours completed
+          - GPA &minus; 4.0 major, 3.5 overall
+          # - 107 hours completed
   - title: Recognition
     items:
       - title: Speaker
@@ -168,30 +150,30 @@ sections:
   #         - Building affordable, mobile customer feedback systems for both local businesses and large enterprises.
   #         - Selecting appropriate technologies and directing the workflow of development with the engineering team.
   #         - Employing lean concepts to develop a SaaS that provides real value for customers.
-  # - title: Service & Leadership
-  #   items:
-  #     - title: CARPOOL Safe Ride Program
-  #       url: http://carpool.tamu.edu
-  #       # tooltip: Learn about CARPOOL
-  #       subtitle: Endowment Committee Executive
-  #       date: May 2013 — Present
-  #     - title: Startup Aggieland
-  #       url: http://startupaggieland.tamu.edu
-  #       # tooltip: Learn about our student-run business accelerator
-  #       subtitle: Entrepreneur-in-Residence
-  #       date: Jan 2013 — Present
-  #     - title: Parents' Weekend Committee
-  #       url: http://parentsweekend.tamu.edu
-  #       # tooltip: Learn about PWC
-  #       subtitle: Member
-  #       date: Sept 2012 — Apr 2013
-  #     - title: Fish Camp
-  #       url: http://fishcamp.tamu.edu
-  #       # tooltip: Learn about Fish Camp
-  #       subtitle: Counselor
-  #       date: Feb 2012 — Feb 2013
-  #     - title: MSC Freshman Leadership Organization (FISH)
-  #       url: http://fish.tamu.edu
-  #       # tooltip: Learn about MSC FISH
-  #       subtitle: Member
-  #       date: Sept 2011 — Mar 2012
+  - title: Service & Leadership
+    items:
+      - title: CARPOOL Safe Ride Program
+        url: http://carpool.tamu.edu
+        # tooltip: Learn about CARPOOL
+        subtitle: Endowment Committee Executive
+        date: May 2013 — Jan 2015
+      - title: Startup Aggieland
+        url: http://startupaggieland.tamu.edu
+        # tooltip: Learn about our student-run business accelerator
+        subtitle: Entrepreneur-in-Residence
+        date: Jan 2013 — Present
+      # - title: Parents' Weekend Committee
+      #   url: http://parentsweekend.tamu.edu
+      #   # tooltip: Learn about PWC
+      #   subtitle: Member
+      #   date: Sept 2012 — Apr 2013
+      # - title: Fish Camp
+      #   url: http://fishcamp.tamu.edu
+      #   # tooltip: Learn about Fish Camp
+      #   subtitle: Counselor
+      #   date: Feb 2012 — Feb 2013
+      - title: MSC Freshman Leadership Organization (FISH)
+        url: http://fish.tamu.edu
+        # tooltip: Learn about MSC FISH
+        subtitle: Member
+        date: Sept 2011 — Mar 2012
