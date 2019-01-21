@@ -1,5 +1,5 @@
 info:
-  name: Joshua Dover
+  name: Josh Dover
   initials: JD
   subtitle: Computer Science
   email: me@joshdover.com
@@ -9,7 +9,7 @@ sections:
     items:
       - title: Cratejoy
         url: https://cratejoy.com
-        tooltip:
+        tooltip: All-in-one Subscription Box SaaS &amp; Marketplace
         subtitle: Engineering Manager & Lead Software Engineer
         date: Oct 2015 — Present
         bullets:
@@ -30,19 +30,20 @@ sections:
           # - Coordinating feature development, devops, and data collection on web and mobile apps.
           # - Building a process that emphasized application performance and code quality thoughout development.
           - Estabilished code and design quality goals and mechanisms (reviews, testing, user studies) for acheiving these goals.
+          - Built web apps, cross-platform native apps, and Apache Spark data analysis pipelines.
           - Screened, interviewed, and hired for positions in engineering and marketing.
           - Designed slide decks, crafted messaging, and pitched for fundraising, raised over $370k.
-          - Primary Tech – Ruby on Rails, Node.js, Angular.js
+          - Primary Tech – Ruby on Rails, Node.js, Angular.js, Scala, Apache Spark
           # - Participating as a co-founder through the SeedSumo accelerator program.
           # - Running and coordinating business model experiments.
           # - Creating a social experience that has everyday utility for students.
           # - Leading and designing business model validation experiements to maximize potential.
           # - Designing a data store schema that allows for reliability and availability, appropriate for our data structure.
           # - Writing a cross-platform high quality native app using HTML + JavaScript.
-      - title: Mozilla Firefox
+      - title: Mozilla
         url: http://careers.mozilla.org/en-US/university/
         tooltip: Internships @ Mozilla
-        subtitle: Software Engineering Intern – Android
+        subtitle: Software Engineering Intern – Firefox for Android
         date: Jan 2014 — May 2014
         bullets:
           - Built new Android front-end and web platform features for Firefox for Android.
@@ -64,8 +65,8 @@ sections:
         bullets:
           - Designed and built new map features in the Places for Business Android app.
           - Worked with Android UI programming and reliable network communication programming.
-          - Programmed with Google's Protocol Buffers and RPC infrastructure for fault-tolerant network communications.
-          - Primary Tech – Java, Android, Guava, Square Otto
+          - Used Protocol Buffers and gRPC infrastructure for fault-tolerant network communications.
+          - Primary Tech – Java, Android, Guava, Square Otto, gRPC
           # - Studyied and utilizing software design patterns and testing techniques to maximize maintainability.
           # - Designing and building new map features in the Places for Business Android app.
           # - Working with Android UI programming and reliable network communication programming.
@@ -80,6 +81,42 @@ sections:
       #     - Provided custom software consulting and application development for growing businesses.
       #     - Refactored poorly organized legacy code into proper frameworks for maintainability.
       #     - Developed high-level integration test suites to ensure high product quality.
+  - title: Skills
+    items:
+      # - title: Engineering Skills
+      #   bullets:
+      #     - JavaScript — Extensive experience with React, Angular.js, Node.js, and TypeScript
+      #     - Python — Large Flask web app at Cratejoy, machine learning & AI with Keras + TensorFlow
+      #     - Go — Kubernetes extensions and contributions, high-performance side projects
+      #     - Docker + Kubernetes — built a per-branch staging system on top of Kubernetes used at Cratejoy
+      #     - Ruby — Large Ruby on Rails projects and test suites
+      #     - Java — Android development at Google and Mozilla
+      #     # - Objective-C / Swift — some iOS development
+      #     # - C++ — data structure analysis, POSIX concurrency, TCP programming
+      - title: Expert
+        subtitle: 1000+ hours
+        bullets:
+          - Python — Large Flask web app at Cratejoy, machine learning & AI with Keras + TensorFlow
+          - JavaScript — Extensive experience with React, Angular.js, Node.js
+          - Ruby — Large Ruby on Rails projects and test suites
+      - title: Advanced
+        subtitle: 100+ hours
+        bullets:
+          - Docker + Kubernetes — built a per-branch staging system on top of Kubernetes used at Cratejoy
+          - Go — Kubernetes extensions and contributions, high-performance side projects
+          - Java — Android development at Google and Mozilla
+      - title: Hobby
+        subtitle: Tools and languages that have piqued my interest
+        bullets:
+          - Elm, Swift, Apache Spark, TypeScript, Keras, TensorFlow
+      - title: Technical Leadership
+        bullets:
+          - Experience sourcing, identifying, and winning high-quality technical hires.
+          - Understand the importance of building personal relationships in order to provide effective guidance and feedback.
+          - Prioritizing the right solution for the right problem, cutting scope, prioritizing quality.
+          - Worked closely with Product teams to develop the best solution to solve business problems.
+          - Keen eye for visual and usability design, with a deep understanding of the technical challenges behind a design.
+          # - I know how to focus on what is important when balancing technical quality goals with the business value.
   - title: Education
     items:
       - title: Texas A&amp;M University
@@ -91,24 +128,6 @@ sections:
           - Computer Science
           - GPA &minus; 4.0 major, 3.53 overall
           - 107 hours completed
-  - title: Skills
-    items:
-      - title: Programming Knowledge
-        bullets:
-          - JavaScript — Extensive experience with React, Angular.js, Node.js, and TypeScript
-          - Python — Large Flask web app at Cratejoy, machine learning & AI with Keras + TensorFlow
-          - Docker + Kubernetes — built a per-branch staging system on top of Kubernetes used at Cratejoy
-          - Ruby — Large Ruby on Rails projects and test suites
-          - Java — Android development at Google and Mozilla
-          # - Objective-C / Swift — some iOS development
-          # - C++ — data structure analysis, POSIX concurrency, TCP programming
-      - title: Technical Leadership
-        bullets:
-          - Experience sourcing, identifying, and winning high-quality technical hires.
-          - Understand the importance of building personal relationships in order to provide effective guidance and feedback.
-          - Worked closely with Product teams to develop the best solution to solve business problems.
-          - Keen eye for visual and usability design, with a deep understanding of the technical challenges behind a design.
-          - I know how to focus on what is important when balancing technical quality goals with the business value.
   - title: Recognition
     items:
       - title: Speaker
